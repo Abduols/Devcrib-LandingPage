@@ -1,0 +1,142 @@
+/** @format */
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background: linear-gradient(to right, #cad2c5, #8aa891);
+	color: #12181b;
+}
+.container {
+	padding: 1.5em 4em 1.5em;
+	margin: 2% 10%;
+	background: linear-gradient(to left, #84a98c);
+	border-radius: 5px;
+	line-height: 1.6;
+	border: 1px solid #cad2c5;
+}
+/* header style */
+
+.header {
+	display: flex;
+	justify-content: space-between;
+	align-items: baseline;
+	font-size: 1.2em;
+}
+
+.header .logo {
+	font-size: 1.2em;
+	text-decoration: underline;
+}
+
+.header .logo span {
+	color: #b5e48c;
+}
+
+.header nav {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	gap: 20px;
+	width: 30%;
+	margin: 0 1em;
+	gap: 20px;
+}
+
+.header nav a {
+	text-decoration: none;
+	font-size: 1em;
+	justify-content: space-evenly;
+	color: black;
+}
+
+.header .btn {
+	padding: 0.2em 18px;
+	font-size: 0.9em;
+	background: none;
+	border: 2px solid #12181b;
+	border-radius: 20px;
+	transition: transform 0.3s ease-in, scale 0.3s ease-in;
+}
+
+.header .btn:hover {
+	transform: translateY(-3px) scale(1.02);
+	background: #cad2c5;
+	cursor: pointer;
+}
+
+/* content style */
+
+.main {
+	text-align: center;
+	margin: 8vh;
+}
+
+.main h1 {
+	font-size: 3em;
+}
+
+/* .main h1 span {
+	font-size: 1.2em;
+	margin: 0 0 5%;
+	display: block;
+	text-transform: uppercase;
+} */
+
+.main p {
+	font-size: 1.1em;
+}
+
+.main h3 {
+	font-size: 1.5em;
+	padding: 1% 0 0;
+}
+
+blockquote {
+	font-style: italic;
+}
+
+/* cards style */
+
+.cards-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	gap: 20px;
+}
+
+.cards {
+	padding: 3% 2%;
+	width: 50%;
+	background: #7a9c81;
+	text-align: center;
+	box-shadow: 1px 1px 3px #88ad90;
+	border-radius: 10px;
+	transition: transform 0.3s ease-in, box-shadow 0.3s ease-in;
+}
+
+.cards:hover {
+	/* transform: scale(1.1); */
+	transform: translateY(-4px);
+	box-shadow: 0 10px 25px #18181b;
+}
+
+.cards h3 {
+	font-size: 1.3em;
+}
+
+.cards p {
+	font-size: 1.2em;
+}
+
+/* footer */
+footer {
+	margin: 0 auto;
+	text-align: center;
+	padding: 0.3em 0;
+	background: #84a98c;
+}
