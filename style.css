@@ -140,3 +140,31 @@ footer {
 	padding: 0.3em 0;
 	background: #84a98c;
 }
+
+
+/* responsive screen style */
+
+@media screen and (max-width: 850px) {
+	.header nav .one {
+		display: none;
+	}
+
+	.main h1 {
+		line-height: 1;
+	}
+
+	.cards-container {
+		flex-direction: column;
+	}
+
+	.cards-container .cards {
+		width: 80%;
+	}
+}
+
+@media screen and (max-width: 650px) {
+	.container {
+		padding: 1.3em 2.5em 1.3em;
+	}
+}
+
